@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seasonal Scenes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Seasonal Scenes</h1>
+    <div class="container">
+        <img id="seasonImage" src="images/summer.webp" alt="Season Image">
+    </div>
+    <div class="buttons">
+        <button onclick="changeSeason('summer')">Summer</button>
+        <button onclick="changeSeason('winter')">Winter</button>
+        <button onclick="changeSeason('monsoon')">Monsoon</button>
+    </div>
+
+
+     <h1>Bulb Light</h1>
+    <div class="container">
+        <img id="colorImage" src="images/offBulb.jpg" alt="BulbImage">
+    </div>
+    <div class="buttons">
+        <button class="redColor" onclick="changeColor('red')">Red</button>
+        <button class="yellowColor" onclick="changeColor('yellow')">Yellow</button>
+        <button class="pinkColor" onclick="changeColor('pink')">Pink</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="light.js"></script>
+</body>
+</html>
